@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.SettingsActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="5dip"
+        android:text="@string/choose_category"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/as_spinnerCategoty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="5dip"
+        android:entries="@array/categoriesRU"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="5dip"
+        android:text="@string/sort_type"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/as_spinnerSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="5dip"
+        android:entries="@array/sortByRU" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="5dip"
+        android:text="@string/article_language"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/as_spinnerLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="5dip"
+        android:entries="@array/languagesUS"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:id="@+id/as_btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="5dip"
+        android:text="@string/save_changes" />
+
+</LinearLayout>

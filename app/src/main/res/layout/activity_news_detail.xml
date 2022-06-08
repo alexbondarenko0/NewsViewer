@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.NewsDetailActivity">
+
+    <TextView
+        android:id="@+id/nda_tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="8dip"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nda_tvAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="8dip"
+        android:text="@string/author"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nda_tvPublishedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="8dip"
+        android:text="@string/date"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/nda_tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="8dip"
+        android:text="@string/details"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/nda_btnOpenView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="8dip"
+        android:text="@string/check_article" />
+
+    <Button
+        android:id="@+id/nda_btnCloseView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="8dip"
+        android:text="@string/close" />
+
+    <WebView
+        android:id="@+id/nda_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginEnd="8dip" />
+</LinearLayout>

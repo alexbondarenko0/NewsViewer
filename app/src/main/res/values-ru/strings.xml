@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Новости</string>
+    <string name="exit">Выход</string>
+    <string name="settings">Настройки</string>
+    <string name="favorites">Избранное</string>
+    <string name="user_not_found">Пользователь не найден</string>
+    <string name="data_not_correct">Данные не корректны</string>
+    <string name="ma_chosen_category">Выбрана категория: </string>
+    <string name="user_added">Пользовател добавлен</string>
+    <string name="user_already_exist">Такой пользователь уже зарегестрирован</string>
+    <string name="favorite_articles">Избранные статьи</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="to_login">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="title">Заголовок</string>
+    <string name="author">Автор</string>
+    <string name="date">Дата</string>
+    <string name="details">Подробности</string>
+    <string name="check_article">Просмотр статьи</string>
+    <string name="close">Закрыть</string>
+    <string name="administrator">Администратор</string>
+    <string name="choose_category">Выберите категорию</string>
+    <string name="sort_type">Режим сортировки</string>
+    <string name="save_changes">Сохранить изменения</string>
+    <string name="article_added_to_favorites">Статья добавлена в избранное</string>
+    <string name="article_removed_from_favorites">Статья убрана из избранного</string>
+    <string name="article_language">Язык новостей</string>
+</resources>
