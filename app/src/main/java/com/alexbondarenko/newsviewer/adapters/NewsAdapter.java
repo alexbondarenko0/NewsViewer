@@ -44,6 +44,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
             public void onClick(View view) {
                 Intent intent = new Intent(inflater.getContext(), NewsDetailActivity.class);
                 intent.putExtra(ArticlesItem.class.getSimpleName(), article);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 inflater.getContext().startActivity(intent);
             }
         });

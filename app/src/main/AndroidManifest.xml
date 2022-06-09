@@ -13,21 +13,27 @@
         android:theme="@style/Theme.NewsViewer">
         <activity
             android:name=".activities.FavoritesActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".activities.SettingsActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".activities.NewsDetailActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".activities.RegistrationActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".activities.MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
