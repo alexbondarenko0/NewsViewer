@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.RegistrationActivity"
-    android:orientation="vertical">
+    android:background="#f3ffff"
+    android:orientation="vertical"
+    tools:context=".activities.RegistrationActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -91,6 +92,7 @@
 
     <Button
         android:id="@+id/ra_button_registration"
+        style="@style/RoundedCornerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dip"

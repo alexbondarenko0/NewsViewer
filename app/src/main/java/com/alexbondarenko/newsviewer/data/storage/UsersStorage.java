@@ -61,7 +61,6 @@ public class UsersStorage {
         List<User> users = getUsers();
         users.add(newUser);
         setUsers(users);
-        Toast.makeText(context, "Пользователь зарегистрирован", Toast.LENGTH_SHORT).show();
     }
 
     public boolean hasIn(User user) {

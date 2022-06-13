@@ -8,11 +8,13 @@
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/drawable/ic_baseline_stars_24.xml" value="0.311" />
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/drawable/ic_favorites_star.xml" value="0.311" />
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2215" />
+        <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/drawable/ronded_corner.xml" value="0.214" />
+        <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/drawable/rounded_corner.xml" value="0.214" />
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/drawable/switch_thumb.xml" value="0.311" />
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/layout/activity_favorites.xml" value="0.2975630611372381" />
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/layout/activity_news_detail.xml" value="0.22" />
+        <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/layout/activity_news_detail.xml" value="0.2" />
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/layout/activity_registration.xml" value="0.33" />
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/layout/activity_settings.xml" value="0.2" />
         <entry key="..\:/Projects AndroidStudio/NewsViewer/app/src/main/res/layout/news_list_item.xml" value="0.25" />

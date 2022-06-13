@@ -2,13 +2,21 @@
     <!-- Base application theme. -->
     <style name="Theme.NewsViewer" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryDark">@color/purple_700</item>
-        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorPrimary">#00c8ff</item>
+        <item name="colorPrimaryDark">#00a0ff</item>
+        <item name="colorAccent">#7effff</item>
         <!-- Customize your theme here. -->
     </style>
 
     <style name="switchCompatTheme">
         <item name="colorControlActivated">#FFF500</item>
+    </style>
+
+    <style name="RoundedCornerButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/rounded_corner</item>
+        <item name="colorButtonNormal">#1a237e</item>
+        <item name="colorControlHighlight">#673ab7</item>
+        <item name="android:textColor">#120907</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>

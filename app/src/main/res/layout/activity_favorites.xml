@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f3ffff"
     android:orientation="vertical"
     tools:context=".activities.FavoritesActivity">
 
@@ -11,11 +12,11 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/favorite_articles"
         android:layout_margin="10dip"
+        android:text="@string/favorite_articles"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/af_recyclerView"
